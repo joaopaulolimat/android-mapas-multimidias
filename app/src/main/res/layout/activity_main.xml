@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnImagens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperando_fotos_com_imageview"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/utilizando_mapas_mapview"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/localiza_o_do_usu_rio_com_location_api"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rotas"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pontos_interessantes"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usando_webview_em_seus_apps"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sons_audiomanager"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/v_deos_mediaplayer"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anima_o_em_views_com_view_animation"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+</LinearLayout>

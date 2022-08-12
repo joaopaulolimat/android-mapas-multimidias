@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recuperando_fotos_com_imageview">Recuperando fotos com ImageView</string>
+    <string name="utilizando_mapas_mapview">Utilizando mapas: MapView</string>
+    <string name="rotas">Rotas</string>
+    <string name="pontos_interessantes">Pontos interessantes</string>
+    <string name="usando_webview_em_seus_apps">Usando WebView em seus Apps</string>
+    <string name="sons_audiomanager">Sons: AudioManager</string>
+    <string name="v_deos_mediaplayer">Vídeos: MediaPlayer</string>
+    <string name="localiza_o_do_usu_rio_com_location_api">Localização do usuário com Location API</string>
+    <string name="anima_o_em_views_com_view_animation">Animação em views com View Animation</string>
+</resources>
