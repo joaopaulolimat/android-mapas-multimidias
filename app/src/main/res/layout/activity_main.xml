@@ -56,7 +56,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnWebView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/usando_webview_em_seus_apps"

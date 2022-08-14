@@ -1,9 +1,8 @@
 package com.example.myapplication
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,10 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnImagens.setOnClickListener(View.OnClickListener {
+        btnImagens.setOnClickListener {
             // instanciar a activity para fazer navegação para ela
             val intent = Intent(this, RecuperaFotosActivity::class.java)
             startActivity(intent)
-        })
+        }
+
+        btnWebView.setOnClickListener {
+            val intent = Intent(this, WebViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
